@@ -1,0 +1,17 @@
+
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/1
+
+###
+POST http://localhost:3001/api/persons
+content-Type: application/json
+
+{
+    "name": "Fadil S Hardy",
+    "number": "123-321-213"
+}
+
+###
+DELETE http://localhost:3001/api/persons/3
