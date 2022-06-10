@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.5"
   }
 }
